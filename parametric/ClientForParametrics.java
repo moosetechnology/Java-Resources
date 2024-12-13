@@ -1,7 +1,5 @@
 package parametric;
 
-import java.util.ArrayList;
-
 public class ClientForParametrics<T> {
 
     /*
@@ -33,11 +31,3 @@ public class ClientForParametrics<T> {
     public void setGts(GenericSubclass<T> gts) { this.gts = gts; } // Parameter type declaration: parametric. The generic parameter type is the generic parameter of GenericSubclass and the concrete parameter type is the generic parameter of ClientForParameterics.
 
 }
-
-/*
- * TODO
- * Plusieurs parameter types
- * Bounds
- * Subtyping
- * Wildcards
- */

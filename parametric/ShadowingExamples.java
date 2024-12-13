@@ -61,7 +61,7 @@ public class ShadowingExamples<T> {
         return inner.getX();
     }
 
-    private class InnerGenericShadowingClass<T> {
+    private class InnerGenericShadowingClass<T> { // Inner class parameter type is shadowing the parameter type of the outer class.
         T x;
 
         public InnerGenericShadowingClass(T x) {

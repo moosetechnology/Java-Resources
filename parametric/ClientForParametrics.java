@@ -1,5 +1,7 @@
 package parametric;
 
+import java.util.ArrayList;
+
 public class ClientForParametrics<T> {
 
     /*
@@ -19,6 +21,12 @@ public class ClientForParametrics<T> {
      * Invocation: parametric. The generic parameter type is the generic parameter of GenericSubclass and the concrete parameter type is the generic parameter of ClientForParameterics (inferred).
      */
     private GenericSubclass<T> gts = new GenericSubclass<>();
+
+    /*
+     * ArrayList<GenericSubclass<String>> is a ParametricType.
+     * Its parameter is GenericSubclass<String>, which is also a ParametricType.
+     */
+    private ArrayList<GenericSubclass<String>> intricateParametricTypesVar = new ArrayList<>();
 
 
     public ConcreteSubclass getCs() { return cs; } // Method type declaration: standard.

@@ -9,9 +9,10 @@ class ThrowTypeParameter<T extends Exception, U> {
     }
 
     /*
-     * The following method is not correct because U is not bounded by Throwable.
+     * The following method is not correct because U is not bounded by Throwable: 
+     * 
     public void impossibleThrowingMethod() throws U {
     }
-    */
+     */
 
 }

@@ -1,7 +1,7 @@
 package resources;
     // Resources for test2
     public class Building {
-        String adress;
+        protected String adress;
 
         public Building() {
         }

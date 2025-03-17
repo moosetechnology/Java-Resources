@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * The generic parameter type is the generic parameter type of the interface
  * The concrete parameter type is the generic parameter type of the class
  */
-public class ClassUsingInteface<T> implements GenericInterface<T> {
+public class ClassUsingInteface<T> implements ParametricInterface<T> {
 
     /*
      * This type declaration is parametric.

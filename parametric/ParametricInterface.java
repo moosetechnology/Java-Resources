@@ -1,6 +1,6 @@
 package parametric;
 
-public interface GenericInterface<T> {
+public interface ParametricInterface<T> {
 
     public T computeSmthg();
 
